@@ -10,6 +10,7 @@
 #include "MiniTestFramework.h"
 
 #include <iostream>
+
 int solution1(const std::vector<int> &Q)
 {
     if (Q.size() < 2)
@@ -29,22 +30,21 @@ int solution1(const std::vector<int> &Q)
     }
     
     long long disks_active = low[0] - high[0];
-    long long total_pairs = disks_active ? disks_active * (disks_active - 1) / 2 : 0;
+    long long total_pairs = disks_active * (disks_active - 1) / 2;
     
-    for (int i = 1;i < size; ++i)
+    for (int i = 1; i < size; ++i)
     {
-        // These new disks intersect with those already active
         if (low[i])
         {
+            // These new disks intersect with those already active
             long long new_intersections = disks_active * low[i];
             total_pairs += new_intersections;
             // These new disks also intersect with themselves
             total_pairs += low[i] * (low[i] - 1) / 2;
+            if (total_pairs > 10000000)
+                return -1;
         }
         disks_active += low[i] - high[i];
-        
-        if (total_pairs > 10000000)
-            return -1;
     }
     return static_cast<int>(total_pairs);
 }
@@ -64,7 +64,11 @@ struct{
     {{1, 5, 2}, 3},
     {{1, 5, 2, 1}, 5},
     {{1, 5, 2, 1, 4, 0}, 11},
-    {std::vector<int>(100000, 0), 0}
+    {std::vector<int>(100000, 0), 0},
+    {std::vector<int>(3, 1), 3},
+    {std::vector<int>(5, 1), 7},
+    {std::vector<int>(100, 1), 197},
+    {std::vector<int>(100000, 1), 199997},
 };
 
 PARAM_TEST(test, tests)
