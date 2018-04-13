@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5247D7682080BDC900CF49B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5247D7672080BDC900CF49B9 /* main.cpp */; };
+		5247D77B2080EA0400CF49B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5247D77A2080EA0400CF49B9 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5247D7622080BDC900CF49B9 /* CopyFiles */ = {
+		5247D7752080EA0400CF49B9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5247D7642080BDC900CF49B9 /* MaxAvgThree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MaxAvgThree; sourceTree = BUILT_PRODUCTS_DIR; };
-		5247D7672080BDC900CF49B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5247D7772080EA0400CF49B9 /* NumberOfDiscIntersections */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NumberOfDiscIntersections; sourceTree = BUILT_PRODUCTS_DIR; };
+		5247D77A2080EA0400CF49B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5247D7612080BDC900CF49B9 /* Frameworks */ = {
+		5247D7742080EA0400CF49B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5247D75B2080BDC900CF49B9 = {
+		5247D76E2080EA0400CF49B9 = {
 			isa = PBXGroup;
 			children = (
-				5247D7662080BDC900CF49B9 /* MaxAvgThree */,
-				5247D7652080BDC900CF49B9 /* Products */,
+				5247D7792080EA0400CF49B9 /* NumberOfDiscIntersections */,
+				5247D7782080EA0400CF49B9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5247D7652080BDC900CF49B9 /* Products */ = {
+		5247D7782080EA0400CF49B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5247D7642080BDC900CF49B9 /* MaxAvgThree */,
+				5247D7772080EA0400CF49B9 /* NumberOfDiscIntersections */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5247D7662080BDC900CF49B9 /* MaxAvgThree */ = {
+		5247D7792080EA0400CF49B9 /* NumberOfDiscIntersections */ = {
 			isa = PBXGroup;
 			children = (
-				5247D7672080BDC900CF49B9 /* main.cpp */,
+				5247D77A2080EA0400CF49B9 /* main.cpp */,
 			);
-			path = MaxAvgThree;
+			path = NumberOfDiscIntersections;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5247D7632080BDC900CF49B9 /* MaxAvgThree */ = {
+		5247D7762080EA0400CF49B9 /* NumberOfDiscIntersections */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5247D76B2080BDC900CF49B9 /* Build configuration list for PBXNativeTarget "MaxAvgThree" */;
+			buildConfigurationList = 5247D77E2080EA0400CF49B9 /* Build configuration list for PBXNativeTarget "NumberOfDiscIntersections" */;
 			buildPhases = (
-				5247D7602080BDC900CF49B9 /* Sources */,
-				5247D7612080BDC900CF49B9 /* Frameworks */,
-				5247D7622080BDC900CF49B9 /* CopyFiles */,
+				5247D7732080EA0400CF49B9 /* Sources */,
+				5247D7742080EA0400CF49B9 /* Frameworks */,
+				5247D7752080EA0400CF49B9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MaxAvgThree;
-			productName = MaxAvgThree;
-			productReference = 5247D7642080BDC900CF49B9 /* MaxAvgThree */;
+			name = NumberOfDiscIntersections;
+			productName = NumberOfDiscIntersections;
+			productReference = 5247D7772080EA0400CF49B9 /* NumberOfDiscIntersections */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5247D75C2080BDC900CF49B9 /* Project object */ = {
+		5247D76F2080EA0400CF49B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "John Mullins";
 				TargetAttributes = {
-					5247D7632080BDC900CF49B9 = {
+					5247D7762080EA0400CF49B9 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
-			buildConfigurationList = 5247D75F2080BDC900CF49B9 /* Build configuration list for PBXProject "MaxAvgThree" */;
+			buildConfigurationList = 5247D7722080EA0400CF49B9 /* Build configuration list for PBXProject "NumberOfDiscIntersections" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 5247D75B2080BDC900CF49B9;
-			productRefGroup = 5247D7652080BDC900CF49B9 /* Products */;
+			mainGroup = 5247D76E2080EA0400CF49B9;
+			productRefGroup = 5247D7782080EA0400CF49B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5247D7632080BDC900CF49B9 /* MaxAvgThree */,
+				5247D7762080EA0400CF49B9 /* NumberOfDiscIntersections */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5247D7602080BDC900CF49B9 /* Sources */ = {
+		5247D7732080EA0400CF49B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5247D7682080BDC900CF49B9 /* main.cpp in Sources */,
+				5247D77B2080EA0400CF49B9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5247D7692080BDC900CF49B9 /* Debug */ = {
+		5247D77C2080EA0400CF49B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -183,7 +183,7 @@
 			};
 			name = Debug;
 		};
-		5247D76A2080BDC900CF49B9 /* Release */ = {
+		5247D77D2080EA0400CF49B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,20 +234,18 @@
 			};
 			name = Release;
 		};
-		5247D76C2080BDC900CF49B9 /* Debug */ = {
+		5247D77F2080EA0400CF49B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				"HEADER_SEARCH_PATHS[arch=*]" = "~/Codility/TestFramework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		5247D76D2080BDC900CF49B9 /* Release */ = {
+		5247D7802080EA0400CF49B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				"HEADER_SEARCH_PATHS[arch=*]" = "~/Codility/TestFramework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -255,25 +253,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5247D75F2080BDC900CF49B9 /* Build configuration list for PBXProject "MaxAvgThree" */ = {
+		5247D7722080EA0400CF49B9 /* Build configuration list for PBXProject "NumberOfDiscIntersections" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5247D7692080BDC900CF49B9 /* Debug */,
-				5247D76A2080BDC900CF49B9 /* Release */,
+				5247D77C2080EA0400CF49B9 /* Debug */,
+				5247D77D2080EA0400CF49B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5247D76B2080BDC900CF49B9 /* Build configuration list for PBXNativeTarget "MaxAvgThree" */ = {
+		5247D77E2080EA0400CF49B9 /* Build configuration list for PBXNativeTarget "NumberOfDiscIntersections" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5247D76C2080BDC900CF49B9 /* Debug */,
-				5247D76D2080BDC900CF49B9 /* Release */,
+				5247D77F2080EA0400CF49B9 /* Debug */,
+				5247D7802080EA0400CF49B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5247D75C2080BDC900CF49B9 /* Project object */;
+	rootObject = 5247D76F2080EA0400CF49B9 /* Project object */;
 }
