@@ -34,14 +34,14 @@ int solution1(const std::vector<int> &Q)
     for (int i = 1;i < size; ++i)
     {
         // These new disks intersect with those already active
-        long long new_intersections = disks_active * low[i];
-        total_pairs += new_intersections;
-        // These new disks also intersect with themselves
         if (low[i])
+        {
+            long long new_intersections = disks_active * low[i];
+            total_pairs += new_intersections;
+            // These new disks also intersect with themselves
             total_pairs += low[i] * (low[i] - 1) / 2;
-        //  We need to remove the the ones
-        disks_active += low[i];
-        disks_active -= high[i];
+        }
+        disks_active += low[i] - high[i];
         
         if (total_pairs > 10000000)
             return -1;
