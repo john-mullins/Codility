@@ -69,6 +69,16 @@ struct{
     {std::vector<int>(5, 1), 7},
     {std::vector<int>(100, 1), 197},
     {std::vector<int>(100000, 1), 199997},
+    {std::vector<int>(5, 2), 10},
+    {std::vector<int>(100, 2), 390},
+    {std::vector<int>(100000, 2), 399990},
+    {std::vector<int>(5, 4), 10},
+    {std::vector<int>(100, 4), 764},
+    {std::vector<int>(100000, 4), 799964},
+    {std::vector<int>(5, 6), 10},
+    {std::vector<int>(100, 6), 1122},
+    {std::vector<int>(100000, 6), 1199922},
+    {std::vector<int>(1000000, 6), -1},
 };
 
 PARAM_TEST(test, tests)
