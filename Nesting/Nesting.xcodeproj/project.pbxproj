@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5247D7B4208153D100CF49B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5247D7B3208153D100CF49B9 /* main.cpp */; };
+		5247D7C72081CFBA00CF49B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5247D7C62081CFBA00CF49B9 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5247D7AE208153D100CF49B9 /* CopyFiles */ = {
+		5247D7C12081CFBA00CF49B9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5247D7B0208153D100CF49B9 /* Fish */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Fish; sourceTree = BUILT_PRODUCTS_DIR; };
-		5247D7B3208153D100CF49B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5247D7C32081CFBA00CF49B9 /* Nesting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Nesting; sourceTree = BUILT_PRODUCTS_DIR; };
+		5247D7C62081CFBA00CF49B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5247D7AD208153D100CF49B9 /* Frameworks */ = {
+		5247D7C02081CFBA00CF49B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5247D7A7208153D100CF49B9 = {
+		5247D7BA2081CFBA00CF49B9 = {
 			isa = PBXGroup;
 			children = (
-				5247D7B2208153D100CF49B9 /* Fish */,
-				5247D7B1208153D100CF49B9 /* Products */,
+				5247D7C52081CFBA00CF49B9 /* Nesting */,
+				5247D7C42081CFBA00CF49B9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5247D7B1208153D100CF49B9 /* Products */ = {
+		5247D7C42081CFBA00CF49B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5247D7B0208153D100CF49B9 /* Fish */,
+				5247D7C32081CFBA00CF49B9 /* Nesting */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5247D7B2208153D100CF49B9 /* Fish */ = {
+		5247D7C52081CFBA00CF49B9 /* Nesting */ = {
 			isa = PBXGroup;
 			children = (
-				5247D7B3208153D100CF49B9 /* main.cpp */,
+				5247D7C62081CFBA00CF49B9 /* main.cpp */,
 			);
-			path = Fish;
+			path = Nesting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5247D7AF208153D100CF49B9 /* Fish */ = {
+		5247D7C22081CFBA00CF49B9 /* Nesting */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5247D7B7208153D100CF49B9 /* Build configuration list for PBXNativeTarget "Fish" */;
+			buildConfigurationList = 5247D7CA2081CFBA00CF49B9 /* Build configuration list for PBXNativeTarget "Nesting" */;
 			buildPhases = (
-				5247D7AC208153D100CF49B9 /* Sources */,
-				5247D7AD208153D100CF49B9 /* Frameworks */,
-				5247D7AE208153D100CF49B9 /* CopyFiles */,
+				5247D7BF2081CFBA00CF49B9 /* Sources */,
+				5247D7C02081CFBA00CF49B9 /* Frameworks */,
+				5247D7C12081CFBA00CF49B9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Fish;
-			productName = Fish;
-			productReference = 5247D7B0208153D100CF49B9 /* Fish */;
+			name = Nesting;
+			productName = Nesting;
+			productReference = 5247D7C32081CFBA00CF49B9 /* Nesting */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5247D7A8208153D100CF49B9 /* Project object */ = {
+		5247D7BB2081CFBA00CF49B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "John Mullins";
 				TargetAttributes = {
-					5247D7AF208153D100CF49B9 = {
+					5247D7C22081CFBA00CF49B9 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
-			buildConfigurationList = 5247D7AB208153D100CF49B9 /* Build configuration list for PBXProject "Fish" */;
+			buildConfigurationList = 5247D7BE2081CFBA00CF49B9 /* Build configuration list for PBXProject "Nesting" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 5247D7A7208153D100CF49B9;
-			productRefGroup = 5247D7B1208153D100CF49B9 /* Products */;
+			mainGroup = 5247D7BA2081CFBA00CF49B9;
+			productRefGroup = 5247D7C42081CFBA00CF49B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5247D7AF208153D100CF49B9 /* Fish */,
+				5247D7C22081CFBA00CF49B9 /* Nesting */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5247D7AC208153D100CF49B9 /* Sources */ = {
+		5247D7BF2081CFBA00CF49B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5247D7B4208153D100CF49B9 /* main.cpp in Sources */,
+				5247D7C72081CFBA00CF49B9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5247D7B5208153D100CF49B9 /* Debug */ = {
+		5247D7C82081CFBA00CF49B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -183,7 +183,7 @@
 			};
 			name = Debug;
 		};
-		5247D7B6208153D100CF49B9 /* Release */ = {
+		5247D7C92081CFBA00CF49B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,20 +234,18 @@
 			};
 			name = Release;
 		};
-		5247D7B8208153D100CF49B9 /* Debug */ = {
+		5247D7CB2081CFBA00CF49B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				"HEADER_SEARCH_PATHS[sdk=macosx*]" = "~/Codility/TestFramework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		5247D7B9208153D100CF49B9 /* Release */ = {
+		5247D7CC2081CFBA00CF49B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				"HEADER_SEARCH_PATHS[sdk=macosx*]" = "~/Codility/TestFramework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -255,25 +253,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5247D7AB208153D100CF49B9 /* Build configuration list for PBXProject "Fish" */ = {
+		5247D7BE2081CFBA00CF49B9 /* Build configuration list for PBXProject "Nesting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5247D7B5208153D100CF49B9 /* Debug */,
-				5247D7B6208153D100CF49B9 /* Release */,
+				5247D7C82081CFBA00CF49B9 /* Debug */,
+				5247D7C92081CFBA00CF49B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5247D7B7208153D100CF49B9 /* Build configuration list for PBXNativeTarget "Fish" */ = {
+		5247D7CA2081CFBA00CF49B9 /* Build configuration list for PBXNativeTarget "Nesting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5247D7B8208153D100CF49B9 /* Debug */,
-				5247D7B9208153D100CF49B9 /* Release */,
+				5247D7CB2081CFBA00CF49B9 /* Debug */,
+				5247D7CC2081CFBA00CF49B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5247D7A8208153D100CF49B9 /* Project object */;
+	rootObject = 5247D7BB2081CFBA00CF49B9 /* Project object */;
 }
